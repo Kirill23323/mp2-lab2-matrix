@@ -104,12 +104,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\tmatrix.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\test\test_main.cpp" />
     <ClCompile Include="..\test\test_tmatrix.cpp" />
     <ClCompile Include="..\test\test_tvector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\tmatrix.h" />
+    <ClInclude Include="..\include\tvector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
